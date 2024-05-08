@@ -1,0 +1,281 @@
+body {
+    background: url(background.jpg) center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+/* Index Page  */
+.index-container {
+    text-align: center;
+    background-color: rgba(0, 84, 174, 0.327);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: 'Kanit', sans-serif;
+}
+
+.index-container h2 {
+    margin-bottom: 20px;
+    color: saddlebrown;
+    font-weight: 700;
+    border-bottom: 2px solid saddlebrown;
+    font-size: xx-large;
+}
+
+.index-container a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px 12px;
+    margin: 10px;
+    color: saddlebrown;
+    background-color: transparent;
+    border: 3px solid saddlebrown;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.index-container a:hover {
+    color: white;
+    background-color: saddlebrown;
+    border: 3px solid saddlebrown;
+}
+
+/* Login Page  */
+
+.login-container,
+.registration-container {
+    text-align: center;
+    background-color: #F2FFE9;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.8;
+}
+
+.login-container h2,
+.registration-container h2 {
+    margin-bottom: 20px;
+    color: saddlebrown;
+    font-weight: 700;
+    border-bottom: 2px solid saddlebrown;
+    font-size: xx-large;
+}
+
+.login-form,
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input,
+.registration-form input {
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #B6BBC4;
+    border-radius: 4px;
+    font-size: medium;
+
+}
+
+.login-form button,
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: saddlebrown;
+    border: 3px solid saddlebrown;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.login-form button:hover,
+.registration-form button:hover {
+    color: saddlebrown;
+    background-color: transparent;
+    border: 3px solid saddlebrown;
+}
+
+.login-container .signupLink,
+.registration-container .loginLink {
+    text-decoration: none;
+    font-weight: 700;
+    color: green;
+}
+
+.login-container .signupLink:hover,
+.registration-container .loginLink:hover {
+    text-decoration: underline;
+
+}
+
+/* Alert  */
+.AlertLoginSignup p {
+    margin: 0;
+}
+
+.AlertLoginSignup {
+    background-color: #D83F31;
+    margin: auto;
+    padding: 8px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 32px;
+}
+
+.Alertclosebutton {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    color: #2e2e2e;
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Profile  */
+
+.profile-container {
+    font-family: 'Bree Serif', serif;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(208 231 210 / 80%);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-info h1 {
+
+    color: saddlebrown;
+    font-weight: 700;
+    border-bottom: 2px solid saddlebrown;
+    font-size: xx-large;
+    width: 70%;
+    margin: auto;
+}
+
+.profile-info p {
+    color: #666;
+    margin: 10px;
+    font-weight: 700;
+
+}
+
+.links a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    color: saddlebrown;
+    font-weight: 700;
+
+    background-color: transparent;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+
+}
+
+
+.profile-container,.update-container {
+    font-family: 'Bree Serif', serif;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(208 231 210 / 80%);
+    border-radius: 10px;
+}
+
+
+.profile-container h1,.update-container h2 {
+    text-decoration: underline;
+    color: saddlebrown;
+
+}
+
+.profile-group h3 {
+    margin: 8px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile-group h3 span {
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.profile-container a,.update-container a, .update-container input[type="submit"] {
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: saddlebrown;
+    background-color: transparent;
+    border: 3px solid saddlebrown;
+}
+
+.profile-container a:hover,.update-container a:hover,.update-container input[type="submit"]:hover {
+    color: #fff;
+    background-color: saddlebrown;
+
+
+}
+.update-container form{
+    margin-bottom: 15px;
+}
+.update-container{
+    text-align: center;
+}
+.update-container input[type="text"],.update-container select {
+    width: 50%;
+    padding: 8px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.775);
+    border-radius: 4px;
+    font-size: medium;
+    outline: none;
+    color: #2e2e2e;
+}
